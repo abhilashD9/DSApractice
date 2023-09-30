@@ -7,8 +7,7 @@ public:
 
         while(left<=right)
         {
-            ans= max(min(height[left], height[right]) * (right-left), ans);
-
+            ans=max(min(height[left],height[right])*(right-left), ans);
 
             if(height[left]<height[right])
             {
